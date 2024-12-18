@@ -32,4 +32,8 @@ public class BankAccount {
     public double withdraw(double amount) {
         return this.balance -= amount;
     }
+
+    public void printNextAccountNumber() {
+        System.out.println(nextAccountNumber);
+    }
 }
