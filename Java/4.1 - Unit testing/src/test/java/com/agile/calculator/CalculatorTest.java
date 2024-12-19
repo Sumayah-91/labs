@@ -8,6 +8,8 @@ public class CalculatorTest {
 
 	@Test
 	public void subtractionTest(){
-		fail("Not yet implemented..");
+		Calculator calculator = new Calculator();
+		int expectedAns = 176;
+		assertEquals(expectedAns, calculator.subtract("230,54"));
 	}
 }
